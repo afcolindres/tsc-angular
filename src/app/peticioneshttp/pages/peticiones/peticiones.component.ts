@@ -8,7 +8,7 @@ import { WikipediaService } from '../../wikipedia.service';
 })
 export class PeticionesComponent {
 
-  pages=[]
+  pages:any=[]
 
   constructor (private wikipedia: WikipediaService){
 
